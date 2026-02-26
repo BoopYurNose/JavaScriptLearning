@@ -4,7 +4,7 @@ console.log("These are very similar to print statements")
 window.alert("Test");
 window.alert("This is a alert");
 
- this is a comment
+//this is a comment
 
 This
 is
@@ -58,10 +58,57 @@ console.log(`Are you online?: ${Online}`);
 console.log(`Are you offline?: ${Offline}`)
 
 console.log(`Is this for sale?: ${ForSale}`)
-*/
+
 
 let FullName = "Zachary Baca";
-let Age = 17;
-let Student = false;
+let Age = 18;
+let Student = true;
 
-document.GetElementById("p1").textContent = FullName;
+document.getElementById("p1").textContent = `Your name is ${FullName}`;
+document.getElementById("p2").textContent = `Your age is ${Age}`;
+document.getElementById("p3").textContent = `You are a student ${Student}`;
+*/
+
+//let students = 30;
+//let NumberGroups = 4;
+
+
+//students = students + 1;
+//students = students - 1;
+//students = students * 2
+//students = students / 2
+//students = students ** 2
+//let extraStudents = students % NumberGroups;
+
+//students += 2;
+//students -= 1;
+//students *= 2;
+//students /= 2;
+//students **= 2;
+//tudents %= 2;
+//let ExtraStudents = students **= NumberGroups;
+//students++;
+//students--;
+
+//console.log(students);
+//document.getElementById("p1").textContent = `We have ${students} students today`;
+
+/*
+    Operator Precedence
+    1. Parenthesis ()
+    2. Exponents
+    3. Multiplication and Division and Modulo
+    4. Addition and Subtraction
+*/
+
+//let result = 1 + 2 * 3 + 4 ** 2;
+//let result = 23;
+
+//let result = 12 % 5 + 8 / 2;
+//let result = 6;
+
+//let result = 6 / 2 ** (2 + 5);
+let result = 21.33;
+
+
+console.log(result)
