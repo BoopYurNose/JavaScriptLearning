@@ -108,7 +108,34 @@ document.getElementById("p3").textContent = `You are a student ${Student}`;
 //let result = 6;
 
 //let result = 6 / 2 ** (2 + 5);
-let result = 21.33;
+//let result = 0.46875;
 
 
-console.log(result)
+//console.log(result)
+
+// How to accept user input
+
+// 1. Easy Way = Window Prompt
+// 2. Professional Way = HTML Textbox
+
+/* Window Prompt
+
+let Username;
+
+Username = window.prompt("What's your username?");
+
+console.log(Username);
+
+console.log(`Hello, ${Username} how are you doing today?`);
+
+*/
+
+// Professional Way
+
+let Username;
+
+document.getElementById("MySubmission").onclick = function(){
+    Username = document.getElementById("UsersInput").value;
+    console.log(Username);
+    document.getElementById("MyH1").textContent = `Good to meet you! ${Username}`;
+}
