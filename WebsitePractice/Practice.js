@@ -13,8 +13,8 @@ multi-line
 comment 
 
 
-document.getElementsById("MyH1Tag").textContent = "Hello";
-document.getElementsById("MyPTag").textContent = "Testing";
+document.getElementById("MyH1Tag").textContent = "Hello";
+document.getElementById("MyPTag").textContent = "Testing";
 
  Variables Number values
 
@@ -64,9 +64,9 @@ let FullName = "Zachary Baca";
 let Age = 18;
 let Student = true;
 
-document.getElementsById("p1").textContent = `Your name is ${FullName}`;
-document.getElementsById("p2").textContent = `Your age is ${Age}`;
-document.getElementsById("p3").textContent = `You are a student ${Student}`;
+document.getElementById("p1").textContent = `Your name is ${FullName}`;
+document.getElementById("p2").textContent = `Your age is ${Age}`;
+document.getElementById("p3").textContent = `You are a student ${Student}`;
 */
 
 //let students = 30;
@@ -91,7 +91,7 @@ document.getElementsById("p3").textContent = `You are a student ${Student}`;
 //students--;
 
 //console.log(students);
-//document.getElementsById("p1").textContent = `We have ${students} students today`;
+//document.getElementById("p1").textContent = `We have ${students} students today`;
 
 /*
     Operator Precedence
@@ -134,9 +134,9 @@ console.log(`Hello, ${Username} how are you doing today?`);
 
 let Username;
 
-document.getElementsById("MySubmission").onclick = function(){
-    Username = document.getElementsById("UsersInput").value;
+document.getElementById("MySubmission").onclick = function(){
+    Username = document.getElementById("UsersInput").value;
     console.log(Username);
-    document.getElementsById("MyH1").textContent = `Good to meet you! ${Username}`;
+    document.getElementById("MyH1").textContent = `Good to meet you! ${Username}`;
 }
 
