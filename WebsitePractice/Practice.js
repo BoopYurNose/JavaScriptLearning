@@ -145,10 +145,41 @@ document.getElementById("MySubmission").onclick = function(){
 //                          (strings, numbers, boleans)
 // example is like converting a number that is a string value, to a number value
 
+// EXAMPLE 1 STRING TO NUMBER CONVERSION
+/*
 let age = window.prompt("How old are you?");
 
 age = Number(age);
 
 age += 1;
 
-console.log(age);
+console.log(age, typeof age);
+*/
+
+// EXAMPLE 2
+
+/*
+
+let x = "0";
+let y = "String";
+let z = True;
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x);
+
+console.log(y, typeof y);
+
+console.log(z, typeof z);
+*/
+
+// const = a variable that can't be changed after you assign them
+
+// FOR EXAMPLE
+
+// const Value = 10
+
+// This variable named Value will permanetly be 10, and you cannot change it anywhere else
+    
