@@ -183,3 +183,18 @@ console.log(z, typeof z);
 
 // This variable named Value will permanetly be 10, and you cannot change it anywhere else
     
+let pi = 3.14159;
+let radius;
+let circumference;
+
+
+
+
+document.getElementById("SubmitButton").onclick = function(){
+    radius = document.getElementById("CircumferenceInput").value;
+    radius = Number(radius);
+    circumference = 2 * pi * radius;
+    
+    document.getElementById("Answer").textContent = `Your Circumference is: ${circumference}`;
+    console.log(circumference);
+}
