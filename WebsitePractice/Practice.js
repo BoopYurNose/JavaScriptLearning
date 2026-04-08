@@ -132,11 +132,23 @@ console.log(`Hello, ${Username} how are you doing today?`);
 
 // Professional Way
 
-let Username;
+/*let Username;
 
 document.getElementById("MySubmission").onclick = function(){
     Username = document.getElementById("UsersInput").value;
     console.log(Username);
     document.getElementById("MyH1").textContent = `Good to meet you! ${Username}`;
 }
+*/
 
+// type conversion = change the datatype of a value to another
+//                          (strings, numbers, boleans)
+// example is like converting a number that is a string value, to a number value
+
+let age = window.prompt("How old are you?");
+
+age = Number(age);
+
+age += 1;
+
+console.log(age);
